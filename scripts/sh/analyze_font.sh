@@ -5,7 +5,7 @@ TARGET_FONT_PATH="fonts/target_font.ttf"
 REFERENCE_FONTS_DIR="fonts/jigmo/"
 
 # ==================== DO NOT MODIFY BELOW ====================
-uv run python analyze_font.py \
+.venv/bin/python analyze_font.py \
     --target_font_path "$TARGET_FONT_PATH" \
     --reference_fonts_dir "$REFERENCE_FONTS_DIR" \
     --analyze_target_font \

@@ -16,7 +16,7 @@ if [ -d "data" ]; then
     rm -rf data/
 fi
 
-uv run python prepare_dataset.py \
+.venv/bin/python prepare_dataset.py \
     --target_font_path "$TARGET_FONT_PATH" \
     --reference_fonts_dir "$REFERENCE_FONTS_DIR" \
     --source_charset_path "$SOURCE_CHARSET_PATH" \
